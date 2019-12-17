@@ -8,36 +8,35 @@
 using namespace std; // USING THE STANDART NAMESPACE
 
 int main(){
-    ifstream fd; // INPUT FILE STREAM OBJECT NAMED fd
-    fd.open("Duom2.txt"); // INPUT FILE NAME
-    int n, v, h, m; // DECLARING n, SPEED, HOURS, MINUTES
+    ifstream fd; 
+    fd.open("Duom2.txt"); 
+    int n, v, h, m; 
 
-    fd >> n >> v >> h >> m; // READING EVERYTHING FROM FILE OBJECT (fd)
-    vector<double> s; // CREATING A DOUBLE VECTOR TO STORE ALL DISTANCE DATA
-    vector<string> miestas; // CREATING A STRING VECTOR TO STORE CITY NAMES
-    for ( int i = 0; i < n; i++ ) { // LOOP TO READ ALL THE DATA, LOOPS FOR TIMES n
-        string tempS; // TEMPORARY STRING
-        double tempN; // TEMPORARY DOUBLE
-        fd >> tempS; // READING A STRING INTO THE TEMPORARY STRING VARIABLE
-        fd >> tempN; // READING A DOUBLE INTO THE TEMPORARY DOUBLE VARIABLE
-        miestas.push_back(tempS); // PUSHING THE TEMPORARY STRING INTO THE STRING VECTOR CONTAINING CITY NAMES
-        s.push_back(tempN); // PUSHING THE TEMPORARY DOUBLE INTO THE STRING VECTOR CONTAINING DISTANCES BETWEEN CITIES
+    fd >> n >> v >> h >> m; 
+    vector<double> s; 
+    vector<string> miestas; 
+    for ( int i = 0; i < n; i++ ) { 
+        string tempS; 
+        double tempN; 
+        fd >> tempS; 
+        fd >> tempN; 
+        miestas.push_back(tempS); 
+        s.push_back(tempN); 
     }
-    fd.close(); // CLOSING THE FILE YOU READ FROM TO PREVENT CRASHES ( ? USELESS ERRORPROOFING, SHOULD BE IMPLEMENTED WITH MORE ERRORPROOFING )
+    fd.close(); 
 
-    int laikas = h * 60 + m; // COUNTING THE TIME IN MINUTES
-    ofstream fr; // OUTPUT FILE STREAM OBJECT NAMED fr
-    fr.open("Rez2.txt"); // OUTPUT FILE NAME
-    for ( int i = 0; i < n; i++ ) { // LOOPING FOR n TIMES TO CALCULATE DISTANCES BETWEEN CITIES AND PRINT THEM 
+    int laikas = h * 60 + m; 
+    ofstream fr; 
+    fr.open("Rez2.txt"); 
+    for ( int i = 0; i < n; i++ ) { 
 
-        double temp = s.at(i) / v; // CALCULATING TIME TO STOP
-        laikas = laikas + temp; // CALCULATING TIME ON STOP
-        int valandos = laikas / 60; // CALCULATING HOURS FROM MINUTES
-        int minutes = laikas % 60; // LEAVING THE REMAINDER INTO MINUTES
-        cout << miestas.at(i) << "  " << valandos << " val." << minutes << " min." << endl;
-        fr << miestas.at(i) << "  " << valandos << " val." << minutes << " min." << endl; // PRINTING THE CITY NAME, HOURS AND MINUTES
+        int temp = trunc( s.at(i) / v * 60 ); 
+        laikas = laikas + temp; 
+        int valandos = laikas / 60; 
+        int minutes = laikas % 60; 
+        fr << miestas.at(i) << "\t\t" << valandos << "val. " << minutes << " min." << endl; 
     }
-    fr.close(); // CLOSING THE FILE YOU WRITE TO TO PREVENT ERRORS ( ? USELESS ERRORPROOFING, SHOULD BE IMPLEMENTED WITH MORE ERRORPROOFING )
+    fr.close(); 
 
-    return 0; // END OF FILE BITCHES
+    return 0; 
 }
