@@ -1,6 +1,14 @@
 {
+    "python.pythonPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
     "files.associations": {
-        "chrono": "cpp",
-        "ostream": "cpp"
-    }
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+
+    
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+
 }
+

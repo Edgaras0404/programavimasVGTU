@@ -1,0 +1,187 @@
+32
+8
+MARY                295 41
+PATRICIA            525 31
+LINDA               190 0
+BARBARA             292 5
+ELIZABETH           181 19
+JENNIFER            103 6
+MARIA               50 33
+SUSAN               42 17
+4
+MARGARET            299 31
+DOROTHY             461 31
+LISA                271 47
+NANCY               507 45
+4
+KAREN               86 25
+BETTY               472 19
+HELEN               497 39
+SANDRA              353 54
+8
+DONNA               543 46
+CAROL               535 0
+RUTH                407 7
+SHARON              463 54
+MICHELLE            109 9
+LAURA               388 7
+SARAH               462 28
+KIMBERLY            90 16
+7
+DEBORAH             293 3
+JESSICA             550 38
+SHIRLEY             333 37
+CYNTHIA             304 17
+ANGELA              408 13
+MELISSA             49 41
+BRENDA              367 52
+4
+AMY                 593 47
+ANNA                277 32
+REBECCA             226 20
+VIRGINIA            618 36
+2
+KATHLEEN            279 35
+PAMELA              244 59
+7
+MARTHA              440 50
+DEBRA               479 23
+AMANDA              173 29
+STEPHANIE           108 30
+CAROLYN             333 58
+CHRISTINE           558 38
+MARIE               167 52
+6
+JANET               459 28
+CATHERINE           570 18
+FRANCES             125 3
+ANN                 125 26
+JOYCE               73 41
+DIANE               647 52
+4
+ALICE               163 51
+JULIE               13 3
+HEATHER             282 4
+TERESA              378 27
+5
+DORIS               487 57
+GLORIA              651 57
+EVELYN              367 30
+JEAN                44 51
+CHERYL              375 23
+6
+MILDRED             286 33
+KATHERINE           205 41
+JOAN                458 43
+ASHLEY              474 11
+JUDITH              263 39
+ROSE                611 6
+7
+JANICE              625 2
+KELLY               244 21
+NICOLE              20 31
+JUDY                639 19
+CHRISTINA           440 31
+KATHY               316 20
+THERESA             301 52
+7
+BEVERLY             16 15
+DENISE              391 54
+TAMMY               401 49
+IRENE               567 11
+JANE                144 14
+LORI                323 39
+RACHEL              413 34
+2
+MARILYN             443 51
+ANDREA              340 28
+5
+KATHRYN             292 51
+LOUISE              336 4
+SARA                372 7
+ANNE                252 32
+JACQUELINE          608 5
+4
+WANDA               557 12
+BONNIE              427 11
+JULIA               353 48
+RUBY                631 5
+5
+LOIS                217 20
+TINA                644 30
+PHYLLIS             286 22
+NORMA               345 30
+PAULA               362 5
+4
+DIANA               586 57
+ANNIE               423 50
+LILLIAN             609 11
+EMILY               115 33
+3
+ROBIN               0 8
+PEGGY               508 4
+CRYSTAL             67 32
+8
+GLADYS              295 3
+RITA                655 52
+DAWN                100 15
+CONNIE              516 2
+FLORENCE            293 58
+TRACY               347 23
+EDNA                172 53
+TIFFANY             42 38
+2
+CARMEN              466 21
+ROSA                43 49
+4
+CINDY               376 0
+GRACE               8 16
+WENDY               269 12
+VICTORIA            84 1
+2
+EDITH               311 4
+KIM                 57 3
+5
+SHERRY              64 31
+SYLVIA              98 58
+JOSEPHINE           509 25
+THELMA              313 21
+SHANNON             370 56
+2
+SHEILA              464 34
+ETHEL               13 27
+7
+ELLEN               89 35
+ELAINE              323 37
+MARJORIE            172 52
+CARRIE              581 8
+CHARLOTTE           113 44
+MONICA              431 49
+ESTHER              41 7
+4
+PAULINE             106 38
+EMMA                235 36
+JUANITA             368 13
+ANITA               49 21
+6
+RHONDA              405 13
+HAZEL               60 19
+AMBER               386 27
+EVA                 334 55
+DEBBIE              63 58
+APRIL               504 47
+3
+LESLIE              426 47
+CLARA               636 42
+LUCILLE             650 17
+5
+JAMIE               537 35
+JOANNE              421 28
+ELEANOR             390 37
+VALERIE             628 43
+DANIELLE            139 49
+4
+MEGAN               476 3
+ALICIA              659 8
+SUZANNE             389 18
+MICHELE             582 17
