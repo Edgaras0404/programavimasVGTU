@@ -1,2 +1,2 @@
 # programavimasVGTU
-EdgaJjjj going BRRRRRR on them tasks
+MBG 2019-2020 m. programavimas.vgtu.lt sprendimai
